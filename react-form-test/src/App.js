@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>My to do App</h1>
+        <h1>My React App</h1>
       </header>
       <Form setInputText={setInputText} />
       <Label />

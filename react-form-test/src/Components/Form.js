@@ -20,7 +20,7 @@ const Form = ({ setInputText, label, setLabel, inputText }) => {
         className="inputText"
       ></input>
 
-      <button onClick={submitTodoHandler} className="add-todo" type="submit">
+      <button onClick={submitTodoHandler} className="add-todo" type="submit">submit 
         <i className="fas fa-plus-square"></i>
       </button>
     </form>

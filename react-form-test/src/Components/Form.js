@@ -9,7 +9,7 @@ const Form = ({ setInputText, label, setLabel, inputText }) => {
   const submitTodoHandler = (e) => {
     e.preventDefault();
   };
-  setLabel([...label, { text: inputText }]);
+  // setLabel([...label, { text: inputText }]);
   setInputText("");
 
   return (
